@@ -1,35 +1,62 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/jecSxI3G)
-# 📘 Assignment: HTML5 + Accessibility & SEO Basics
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first assignment(portfolio)</title>
+</head>
+<body>
+    <header>
+        <h1>Ian Njoroge</h1>
+         <h5>CEO Prime solutions and Software Engineer in the making</h5>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h3>About me</h3>
+            <p>I am a resilient soul with a innate stubbornness that allows me to do a lot</p>
+          <h4>what i like</h4>
+            <ol>
+               <li>Memories</li>
+               <li>Good vybez</li>
+               <li>Coding the impossible</li>
+               <li>Watching movies</li>
+               <li>Spending time with loved ones</li> 
+            </ol>
+        </section>
+        <section id="projects">
+            <h3>My projects</h3>
+            <article>
+                <h4>Brits Academy</h4>
+                <p>A tech school made to teach students locally about the tech world to provide them with impactful skills in their loves <br>
+                which can later help them create job opportunities for those who we haven't gottent to yet</p>
+            </article>
+            <article>
+                <h4>Trade system</h4>
+                <p>The system allows a small scale enterpreneur in their daily activities including stock alerts and tracking the month's income and Mpesa float for automated works</p>
+            </article>
+            <article>
+                <h4>Prime solutions</h4>
+                <p>A company that provides software solutions to small scale enterpreneurs and also helps them in their daily activities</p>
 
-## Overview
+        </section>
 
-This assignment will help you solidify your understanding of modern HTML5 structure while applying foundational concepts of web accessibility and search engine optimization (SEO). You’ll create a simple, semantically correct web page that prioritizes both human and machine readability—two pillars of great web design.
+        <section id="contact">
+            <h3>Contact me Through the following platforms</h3>
+            <p>Email: academybrits@gmail.com </p>
+            <p>phone: 0741261579</p>
+        </section>
 
-## Objective
-
-Build a basic web page using HTML5 semantic tags, applying accessibility best practices and beginner-friendly SEO principles. Your final output should demonstrate a well-structured layout that supports screen readers and is optimized for discoverability.
-
-## Guidelines
-
-Use only HTML5. No CSS or JavaScript is required at this stage. Focus on using meaningful semantic elements to structure your page. Avoid using `<div>` or `<span>` unless absolutely necessary. Ensure your page has clearly defined sections such as a header, navigation, main content, and a footer.
-
-Incorporate accessibility by using proper HTML5 landmarks and attributes that improve navigation for assistive technologies. Your HTML should reflect thoughtful planning of hierarchy and readability, both for users and search engines.
-
-For SEO, emphasize the use of heading tags in the correct order, provide descriptive text, and ensure your content is both human-readable and crawler-friendly. Consider how a search engine would interpret your page in terms of structure and content clarity.
-
-## Deliverables
-
-A single HTML file named `index.html`. It should include:
-
-* A semantic structure using appropriate HTML5 elements.
-* Clear headings in a logical hierarchy.
-* Accessibility enhancements using proper tags and attributes.
-* SEO-friendly metadata and content.
-
-## Tips
-
-* Use HTML5 semantic tags appropriately.
-* Organize content with accessibility in mind.
-* Apply basic on-page SEO techniques.
-* Follow clean, readable HTML code structure.
-
+    </main>
+    
+    
+    <footer>
+ <p>&copy; 2025 Ian Njoroge. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
